@@ -1,0 +1,133 @@
+.contact {
+    background-image: url("../../img/bg-hill.png");
+    background-size: cover;
+
+    &__container {
+        @include container;
+    }
+
+    &__body {
+        padding: 150px 0 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        height: 450px;
+    }
+
+    &__form {
+        height: 100%;
+        width: 35%;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 60px 32px 50px;
+
+        &__title {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        &__subtitle {
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        input {
+            width: 90%;
+            border-radius: 8px;
+            border: #000 solid 1px;
+            padding: 18px 20px;
+            font-size: 20px;
+        }
+
+        button {
+            margin-top: 16px;
+            width: 100%;
+            padding: 18px 0;
+            background-color: $primary-color;
+            border-radius: 8px;
+            text-align: center;
+            color: #fff;
+            font-size: 20px;
+        }
+
+        &__info {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        &__social {
+            display: flex;
+            gap: 12px;
+        }
+
+        a {
+            padding: 8px 16px;
+            border: $primary-color 1px solid;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            p {
+                line-height: 0;
+            }
+        }
+    }
+
+    &__info {
+        width: 65%;
+        height: 100%;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 40px 40px 70px;
+
+        &__title {
+            font-size: 44px;
+            font-weight: 700;
+        }
+
+        ul {
+            div {
+                margin-top: 28px;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                font-size: 20px;
+                font-weight: 400;
+            }
+        }
+    }
+
+    @media (max-width: 1300px) {
+        & {
+            &__body {
+                flex-direction: column;
+                height: auto;
+            }
+
+            &__form {
+                width: 90%;
+                padding: 40px 24px 50px;
+            }
+
+            &__info {
+                width: 80%;
+                padding: 30px 40px 40px;
+
+                &__title {
+                    font-size: 28px;
+                }
+
+                ul {
+                    div {
+                        margin-top: 28px;
+                        gap: 16px;
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}
