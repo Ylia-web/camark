@@ -1,0 +1,73 @@
+body {
+    background-color: #f9f9f9;
+    /* Цвет фона страницы */
+    color: #333;
+    /* Цвет текста */
+    font-family: 'Arial', sans-serif;
+    /* Шрифт по умолчанию */
+    line-height: 1.6;
+    /* Высота строки */
+}
+
+/* Стили для контейнера */
+.container {
+    max-width: 1200px;
+    /* Максимальная ширина контейнера */
+    margin: 0 auto;
+    /* Центрирование контейнера */
+    padding: 20px;
+    /* Внутренние отступы */
+}
+
+/* Стили для заголовков */
+h2,
+h3 {
+    color: #2c3e50;
+    /* Цвет заголовков */
+    margin-bottom: 15px;
+    /* Отступ снизу */
+}
+
+/* Стили для кнопок */
+.submitBtn {
+    background-color: #3498db;
+    /* Цвет фона кнопки */
+    color: white;
+    /* Цвет текста кнопки */
+    border: none;
+    /* Убираем рамку */
+    padding: 10px 20px;
+    /* Внутренние отступы */
+    border-radius: 5px;
+    /* Закругленные углы */
+    cursor: pointer;
+    /* Курсор в виде указателя */
+    transition: background-color 0.3s;
+    /* Плавный переход цвета фона */
+}
+
+.submitBtn:hover {
+    background-color: #2980b9;
+    /* Цвет фона при наведении */
+}
+
+/* Стили для ссылок */
+.social {
+    color: #3498db;
+    /* Цвет ссылок */
+    text-decoration: none;
+    /* Убираем подчеркивание */
+}
+
+.social:hover {
+    text-decoration: underline;
+    /* Подчеркивание при наведении */
+}
+
+/* Стили для сообщений */
+.messege {
+    margin-top: 20px;
+    /* Отступ сверху */
+    color: #e74c3c;
+    /* Цвет текста сообщений */
+}

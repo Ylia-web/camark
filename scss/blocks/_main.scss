@@ -1,0 +1,69 @@
+.contact-container {
+    display: flex;
+    /* Используем Flexbox для выравнивания */
+    flex-direction: column;
+    /* Вертикальная ориентация */
+    align-items: center;
+    /* Центрируем элементы по горизонтали */
+    text-align: center;
+    /* Центрируем текст */
+    padding: 20px;
+    /* Отступы вокруг контейнера */
+    background-color: #f9f9f9;
+    /* Цвет фона */
+    border: 1px solid #ddd;
+    /* Рамка вокруг контейнера */
+    border-radius: 8px;
+    /* Закругленные углы */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Тень для контейнера */
+}
+
+.contact-text {
+    font-size: 20px;
+    /* Размер шрифта */
+    font-weight: bold;
+    /* Жирный шрифт */
+    margin: 10px 0;
+    /* Отступы сверху и снизу */
+}
+
+.contact-details {
+    font-size: 14px;
+    /* Размер шрифта для деталей */
+    margin: 5px 0;
+    /* Отступы сверху и снизу */
+}
+
+.contact-phone {
+    font-size: 18px;
+    /* Размер шрифта для телефона */
+    color: #007BFF;
+    /* Цвет текста (синий) */
+    margin: 10px 0;
+    /* Отступы сверху и снизу */
+}
+
+.consult-button {
+    padding: 10px 20px;
+    /* Внутренние отступы для кнопки */
+    font-size: 16px;
+    /* Размер шрифта кнопки */
+    color: #fff;
+    /* Цвет текста кнопки */
+    background-color: #a72828;
+    /* Цвет фона кнопки (зеленый) */
+    border: none;
+    /* Убираем рамку */
+    border-radius: 5px;
+    /* Закругленные углы кнопки */
+    cursor: pointer;
+    /* Указатель при наведении */
+    transition: background-color 0.3s;
+    /* Плавный переход цвета фона */
+}
+
+.consult-button:hover {
+    background-color: #218838;
+    /* Цвет фона кнопки при наведении */
+}
