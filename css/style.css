@@ -184,6 +184,20 @@ h3 {
   color: #fff;
   font-size: 20px;
 }
+.contact__form__label {
+  display: flex;
+  align-items: center;
+}
+.contact__form input[type=checkbox] {
+  margin: 0 10px 0 0;
+  width: auto;
+  height: auto;
+}
+.contact__form .checkbox__title {
+  padding: 2px;
+  white-space: normal;
+  max-width: 300px;
+}
 .contact__form__info {
   font-size: 20px;
   font-weight: 600;
@@ -229,11 +243,11 @@ h3 {
   }
   .contact__form {
     width: 90%;
-    padding: 40px 24px 50px;
+    padding: 40px 40px 40px;
   }
   .contact__info {
-    width: 80%;
-    padding: 30px 40px 40px;
+    width: 90%;
+    padding: 40px 40px 40px;
   }
   .contact__info__title {
     font-size: 28px;
